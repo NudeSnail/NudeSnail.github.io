@@ -22,7 +22,7 @@ a {
 .blackstock,
 .leopard,
 .leopard2,
-.abba,
+.leopard3,
 .moose {
     min-height: 100%;
     background-position: center;
@@ -35,6 +35,10 @@ a {
 
 .leopard2 {
     background-image: url("Wedding%20Site%202-01.svg")
+}
+
+.leopard3 {
+    background-image: url("leopard3-01.svg")
 }
 
 .moose {
