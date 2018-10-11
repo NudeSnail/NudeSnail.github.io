@@ -15,8 +15,8 @@ h2 {
 }
 h3 {
     font-family: 'Alfa Slab One', cursive;
-    line-height: calc(10pt + (100) * (100vw - 350px) / (1920 - 350));
-    font-size: calc(15pt + (100) * (100vw - 350px) / (1920 - 350));
+    line-height: calc(20pt + (100) * (100vw - 350px) / (1920 - 350));
+    font-size: calc(30pt + (100) * (100vw - 350px) / (1920 - 350));
 }
 
 button,
