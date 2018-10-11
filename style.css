@@ -28,7 +28,7 @@ a {
 .blackstock,
 .leopard,
 .leopard2,
-.couple,
+.abba,
 .moose {
     min-height: 100%;
     background-position: center;
@@ -51,8 +51,14 @@ a {
     background-image: url("Blackstock.jpg")
 }
 
-.couple {
-    background-image: url("eand.jpg")
+.abba {
+    background-image: url("ABBA.jpg");
+}
+
+.black {
+    background: black;
+    background-position: center;
+    background-size: cover;
 }
 
 .my-sidebar {
