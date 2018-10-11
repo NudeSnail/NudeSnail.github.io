@@ -1,0 +1,77 @@
+body,
+html {
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+h1,
+h2 {
+    font-family: 'Alfa Slab One', cursive;
+    line-height: calc(45pt + (100) * (100vw - 350px) / (1920 - 350));
+    font-size: calc(60pt + (100) * (100vw - 350px) / (1920 - 350));
+}
+
+button,
+a {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.blackstock,
+.leopard,
+.leopard2,
+.couple,
+.moose {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.leopard {
+    background-image: url("leopardPrint-01.svg")
+}
+
+.leopard2 {
+    background-image: url("Wedding%20Site%202-01.svg")
+}
+
+.moose {
+    background-image: url("moose.jpg")
+}
+
+.blackstock {
+    background-image: url("Blackstock.jpg")
+}
+
+.couple {
+    background-image: url("eand.jpg")
+}
+
+.my-sidebar {
+    width: calc(93px + 9vw);
+}
+
+@media screen and (max-width: 600px) {
+    .my-sidebar {
+        width: calc(1px + 60vw);
+    }
+    h1,
+    h2 {
+        text-align: left
+    }
+    .w3-display-right {
+        position: absolute;
+        top: 42%;
+        left: 2%;
+        transform: translate(0%, -50%);
+        -ms-transform: translate(-0%, -50%)
+    }
+}
